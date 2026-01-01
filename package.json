@@ -1,0 +1,22 @@
+{
+  "name": "stackpals",
+  "version": "1.0.0",
+  "description": "App where Devs meet and share their tech things",
+  "keywords": [
+    "backend",
+    "nodejs",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Abhishek Adavi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
